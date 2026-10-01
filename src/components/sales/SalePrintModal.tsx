@@ -52,7 +52,7 @@ export const SalePrintModal: React.FC<SalePrintModalProps> = ({
       onClose={onClose}
       title={`Comprovante de Venda ${sale.number}`}
       subtitle="Recibo detalhado de venda"
-      maxWidth="3xl"
+      maxWidth="4xl"
     >
       <div className="space-y-4">
         <div className="flex justify-end no-print">

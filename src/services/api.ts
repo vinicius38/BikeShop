@@ -42,7 +42,12 @@ export async function request<T>(
     headers.set('Content-Type', 'application/json');
   }
 
-  const url = endpoint.startsWith('http') ? endpoint : endpoint.startsWith('/api') ? endpoint : `/api${endpoint}`;
+  const baseUrl = import.meta.env.VITE_API_URL || '';
+  const url = endpoint.startsWith('http') 
+    ? endpoint 
+    : endpoint.startsWith('/api') 
+      ? `${baseUrl}${endpoint}` 
+      : `${baseUrl}/api${endpoint}`;
 
   const response = await fetch(url, {
     ...options,

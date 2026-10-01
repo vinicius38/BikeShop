@@ -43,7 +43,7 @@ export const QuickCustomerModal: React.FC<QuickCustomerModalProps> = ({
 
     try {
       const res = await customerService.getAll({ cpfCnpj: cleanCpfCnpj });
-      const existing = res.data.data.find((c) => c.cpfCnpj?.replace(/\D/g, '') === cleanCpfCnpj);
+      const existing = res.items.find((c) => c.cpfCnpj?.replace(/\D/g, '') === cleanCpfCnpj);
       if (existing) {
         setErrorMsg(`Atenção: Já existe um cliente cadastrado com este CPF/CNPJ (${existing.name}).`);
       } else {
@@ -70,7 +70,7 @@ export const QuickCustomerModal: React.FC<QuickCustomerModalProps> = ({
       if (cleanCpfCnpj) {
         try {
           const res = await customerService.getAll({ cpfCnpj: cleanCpfCnpj });
-          const existing = res.data.data.find((c) => c.cpfCnpj?.replace(/\D/g, '') === cleanCpfCnpj);
+          const existing = res.items.find((c) => c.cpfCnpj?.replace(/\D/g, '') === cleanCpfCnpj);
           if (existing) {
             setErrorMsg(`Não é possível salvar. Já existe um cliente cadastrado com este CPF/CNPJ (${existing.name}).`);
             setIsSubmitting(false);
