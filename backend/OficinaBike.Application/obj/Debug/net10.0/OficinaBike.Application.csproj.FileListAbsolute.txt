@@ -1,0 +1,15 @@
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\bin\Debug\net10.0\OficinaBike.Application.deps.json
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\bin\Debug\net10.0\OficinaBike.Application.dll
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\bin\Debug\net10.0\OficinaBike.Application.pdb
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\bin\Debug\net10.0\OficinaBike.Domain.dll
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\bin\Debug\net10.0\OficinaBike.Domain.pdb
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\obj\Debug\net10.0\OficinaBike.Application.csproj.AssemblyReference.cache
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\obj\Debug\net10.0\OficinaBike.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\obj\Debug\net10.0\OficinaBike.Application.AssemblyInfoInputs.cache
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\obj\Debug\net10.0\OficinaBike.Application.AssemblyInfo.cs
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\obj\Debug\net10.0\OficinaBike.Application.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\obj\Debug\net10.0\OficinaB.8354A330.Up2Date
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\obj\Debug\net10.0\OficinaBike.Application.dll
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\obj\Debug\net10.0\refint\OficinaBike.Application.dll
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\obj\Debug\net10.0\OficinaBike.Application.pdb
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Application\obj\Debug\net10.0\ref\OficinaBike.Application.dll

@@ -1,0 +1,11 @@
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Domain\bin\Debug\net10.0\OficinaBike.Domain.deps.json
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Domain\bin\Debug\net10.0\OficinaBike.Domain.dll
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Domain\bin\Debug\net10.0\OficinaBike.Domain.pdb
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Domain\obj\Debug\net10.0\OficinaBike.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Domain\obj\Debug\net10.0\OficinaBike.Domain.AssemblyInfoInputs.cache
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Domain\obj\Debug\net10.0\OficinaBike.Domain.AssemblyInfo.cs
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Domain\obj\Debug\net10.0\OficinaBike.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Domain\obj\Debug\net10.0\OficinaBike.Domain.dll
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Domain\obj\Debug\net10.0\refint\OficinaBike.Domain.dll
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Domain\obj\Debug\net10.0\OficinaBike.Domain.pdb
+C:\Users\Vinicius\Downloads\oficinabike\backend\OficinaBike.Domain\obj\Debug\net10.0\ref\OficinaBike.Domain.dll

@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #EF7410;
+    --color-primary-dark: #A9581E;
+    
+    --color-background: #040915;
+    --color-background-secondary: #0B1424;
+    
+    --color-surface: #121E30;
+    --color-surface-hover: #18263A;
+    
+    --color-white: #F8F8F8;
+    
+    --color-text-primary: #F8F8F8;
+    --color-text-secondary: #ACB0B0;
+    
+    --color-border: #1F2E45;
+    --color-border-subtle: #172437;
+    
+    --color-success: #22C55E;
+    --color-warning: #F59E0B;
+    --color-danger: #EF4444;
+    --color-info: #3B82F6;
+  }
+
+  body {
+    background-color: #040915;
+    color: #F8F8F8;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbars for high-tech aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B1424;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F2E45;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #EF7410;
+}
+
+/* Print specific rules */
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    visibility: hidden;
+    margin: 1.5cm; /* Add some margin back to the content */
+  }
+  
+  .print-area {
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+
+  .print-area * {
+    visibility: visible;
+  }
+
+  .no-print, .no-print * {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+
+  /* Ensure modal backdrop allows scrolling/multi-page print */
+  .fixed.inset-0.z-50 {
+    position: absolute !important;
+    overflow: visible !important;
+    height: auto !important;
+    background: transparent !important;
+  }
+}
