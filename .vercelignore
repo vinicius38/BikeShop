@@ -1,0 +1,5 @@
+backend/
+oficinabike.db
+oficinabike.db-shm
+oficinabike.db-wal
+.env.local
